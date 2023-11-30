@@ -1,0 +1,10 @@
+version: '3'
+services:
+  react_native_app:
+    build:
+      context: .
+    tty: true
+    ports:
+      - '8081:8081'
+    volumes:
+      - .:/app
