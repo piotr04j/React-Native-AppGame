@@ -6,5 +6,6 @@ services:
     tty: true
     ports:
       - '8081:8081'
+      - '19006:19006'
     volumes:
       - .:/app
